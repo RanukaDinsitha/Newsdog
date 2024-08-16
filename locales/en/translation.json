@@ -1,0 +1,15 @@
+{
+  "trending_articles": "Trending Articles",
+  "trending_articles_description": "Here are some trending topics/papers in Sri Lanka.",
+  "articles": "Articles",
+  "articles_description": "Check out articles on what is going on in Sri Lanka.",
+  "newspaper": "Newspaper",
+  "newspaper_description": "Check out our custom newspaper, made by data from other newspapers.",
+  "videos": "Videos",
+  "videos_description": "Check out the videos of Sri Lankan news.",
+  "languages": "Languages",
+  "change_languages_here": "Change languages here",
+  "settings": "Settings",
+  "settings_description": "Change your settings and other preferences here.",
+  "app_name": "Newsdog"
+}

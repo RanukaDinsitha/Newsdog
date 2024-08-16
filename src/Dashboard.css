@@ -1,0 +1,169 @@
+/* Default Styles */
+
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Sinhala:wght@100..900&family=Noto+Sans+Tamil:wght@100..900&display=swap");
+
+body,
+html,
+#root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #f0f0f0;
+  color: black;
+}
+
+/* Dashboard Container */
+.dashboard-container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Sidebar Styles */
+.sidebar {
+  width: 250px;
+  background: #ffffff;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  position: fixed;
+  height: 100vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sidebar-header {
+  margin-bottom: 20px;
+}
+
+.sidebar-logo {
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #333;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sidebar-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  flex-grow: 1;
+}
+
+.sidebar-list-item {
+  margin-bottom: 15px;
+}
+
+.sidebar-link {
+  display: flex;
+  align-items: center;
+  color: #333;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+.sidebar-link:hover {
+  background: #f0f0f0;
+}
+
+.sidebar-list-item-icon {
+  margin-right: 10px;
+}
+
+/* Content Area */
+.content-area {
+  flex-grow: 1;
+  margin-left: 250px; /* To accommodate the fixed sidebar */
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* App Bar */
+.app-bar {
+  background-color: #333;
+  color: white;
+}
+
+.app-bar-typography {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Content Box */
+.content-box {
+  padding: 20px;
+  overflow-y: auto;
+  flex-grow: 1;
+  background: #f9f9f9;
+}
+
+/* Card Styles */
+.card {
+  margin: 20px 0;
+}
+
+.card-header {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card-divider {
+  margin: 10px 0;
+}
+
+.card-body {
+  font-size: 1em;
+  color: #555;
+}
+
+/* Language Specific Fonts */
+.sinhalese {
+  font-family: "Noto Sans Sinhala", sans-serif;
+}
+
+.tamil {
+  font-family: "Noto Sans Tamil", sans-serif; /* Replace with the actual Tamil font */
+}
+
+/* Language Selector */
+.language-selector {
+  display: flex;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.language-icon {
+  margin-right: 8px;
+}
+
+.language-selector {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 16px; /* Adjust the spacing as needed */
+}
+
+.language-select {
+  margin-left: 8px;
+}
+
+/* .doggy {
+  margin-right: 0px; !important
+} */
+
+/*
+.logo-text {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 6px;
+} */
