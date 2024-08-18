@@ -1,0 +1,16 @@
+.spinner-box {
+  align-items: center;
+  margin-top: 400px;
+}
+
+.app-bar-typography {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logo-text {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

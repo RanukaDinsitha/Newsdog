@@ -24,6 +24,7 @@ import { useTranslation } from "react-i18next";
 import ReactPlayer from "react-player";
 import TransparentReviewButton from "./components/Review";
 import "./Dashboard.css";
+// import LoadingSpinner from "./components/Spinner";
 // import { Player } from "./components/video/Player"
 
 // Placeholder Components
@@ -292,6 +293,9 @@ const Dashboard = () => {
               {/* Add any additional routes here */}
             </Routes>
           </Box>
+          {/* <div className="spinner-box">
+             <LoadingSpinner />
+          </div> */}
           <div className="review-box">
             <TransparentReviewButton />
           </div>

@@ -191,6 +191,17 @@ html,
 
 .selector-parent {
   align-self: auto;
+  margin-left: 350px;
+}
+
+.arrow-button {
+  margin-top: 0px;
+  margin-bottom: 0in;
+}
+
+.next-button {
+  margin-left: 52px;
+  margin-top: 28px;
 }
 
 /* .space-notebook {
