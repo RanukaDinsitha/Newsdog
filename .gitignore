@@ -31,3 +31,7 @@ dist-ssr
 .fleet/*
 .idea/*
 .history/*
+
+# Playground (stuff, that you don't need to know)
+
+playground/*
