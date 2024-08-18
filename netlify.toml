@@ -1,0 +1,7 @@
+[build.processing.html]
+  pretty_urls = true
+[[redirects]]
+  from = "https://newsdog-lk.netlify.app"
+  to = "https://ranukadinsitha.github.io/building.html"
+  status = 301
+  force = true
