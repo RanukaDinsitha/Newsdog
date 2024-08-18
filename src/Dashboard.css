@@ -164,12 +164,33 @@ html,
 }
 
 .review-box {
- .review-button{
-  float: right;
-  margin-right: 32px;
-  margin-left: 8px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
- }
+  .review-button {
+    float: right;
+    margin-right: 32px;
+    margin-left: 8px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+}
+
+.about-box {
+  .about-text {
+    font-family: 'Segoe UI', Tahoma, 'Noto Sans Sinhala', Geneva, Verdana, sans-serif;
+    size: 2px;
+    color: black;
+    font-weight: 300;
+    text-align: center;
+    align-items: center;
+  }
+}
+
+.selector-review-box {
+  selector-issue {
+    align-items: center;
+  }
+}
+
+.selector-parent {
+  align-self: auto;
 }
 
 /* .space-notebook {

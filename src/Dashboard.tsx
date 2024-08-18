@@ -110,7 +110,10 @@ const VideosPage = () => {
           {t("videos_description", {
             defaultValue: "Check out the videos of Sri Lankan news.",
           })}
-          <ReactPlayer url='https://www.youtube.com/watch?v=LXb3EKWsInQ' className="player"/>
+          <ReactPlayer
+            url="https://www.youtube.com/watch?v=LXb3EKWsInQ"
+            className="player"
+          />
         </Typography>
       </CardContent>
     </Card>
@@ -152,7 +155,9 @@ const LanguagesPage = () => {
           >
             <MenuItem value="en">English</MenuItem>
             <MenuItem value="si">සිංහල (Sinhala)</MenuItem>
-            <MenuItem value="ta">தமிழ் (Tamil) <b>Inaccurate</b></MenuItem>
+            <MenuItem value="ta">
+              தமிழ் (Tamil) <b>Inaccurate</b>
+            </MenuItem>
           </Select>
         </div>
       </CardContent>
@@ -199,7 +204,6 @@ const SettingsPage = () => {
 //   </CardContent>
 // </Card>
 // }
-
 
 // Dashboard Component
 const Dashboard = () => {
