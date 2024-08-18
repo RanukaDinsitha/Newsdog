@@ -22,6 +22,7 @@ import {
 } from "@mui/material";
 import { useTranslation } from "react-i18next";
 import ReactPlayer from "react-player";
+import TransparentReviewButton from "./components/Review";
 import "./Dashboard.css";
 // import { Player } from "./components/video/Player"
 
@@ -287,6 +288,9 @@ const Dashboard = () => {
               {/* Add any additional routes here */}
             </Routes>
           </Box>
+          <div className="review-box">
+            <TransparentReviewButton />
+          </div>
         </Box>
       </div>
     </Router>

@@ -1,14 +1,16 @@
 import React from 'react';
 import { Button } from '@mui/material';
 import { NotebookPen } from 'lucide-react';
+import { Tippy } from "tippy.js";
 
 interface TransparentReviewButtonProps {
   onClick?: () => void;
 }
 
-const Review: React.FC<TransparentReviewButtonProps> = ({ onClick }) => {
+const TransparentReviewButton: React.FC<TransparentReviewButtonProps> = ({ onClick }) => {
   return (
     <Button
+      className='review-button'
       variant="outlined"
       color="inherit"
       onClick={onClick}
@@ -21,10 +23,10 @@ const Review: React.FC<TransparentReviewButtonProps> = ({ onClick }) => {
         },
       }}
     >
-      <NotebookPen size={24} />
-      Review
+      <NotebookPen size={24} className='space-notebook'/>
+      &nbsp;&nbsp;Review
     </Button>
   );
 };
 
-export default Review;
+export default TransparentReviewButton;

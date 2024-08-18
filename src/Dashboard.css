@@ -163,6 +163,19 @@ html,
   margin-top: 32px;
 }
 
+.review-box {
+ .review-button{
+  float: right;
+  margin-right: 32px;
+  margin-left: 8px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+}
+
+/* .space-notebook {
+  margin-left: 32px;
+} */
+
 /* .doggy {
   margin-right: 0px; !important
 } */
