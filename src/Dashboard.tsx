@@ -21,8 +21,9 @@ import {
   MenuItem,
 } from "@mui/material";
 import { useTranslation } from "react-i18next";
+import ReactPlayer from "react-player";
 import "./Dashboard.css";
-// import { Player } from "./components/Player"
+// import { Player } from "./components/video/Player"
 
 // Placeholder Components
 const HottestArticles = () => {
@@ -108,7 +109,7 @@ const VideosPage = () => {
           {t("videos_description", {
             defaultValue: "Check out the videos of Sri Lankan news.",
           })}
-          {/* <Player /> */}
+          <ReactPlayer url='https://www.youtube.com/watch?v=LXb3EKWsInQ' className="player"/>
         </Typography>
       </CardContent>
     </Card>
@@ -150,7 +151,7 @@ const LanguagesPage = () => {
           >
             <MenuItem value="en">English</MenuItem>
             <MenuItem value="si">සිංහල (Sinhala)</MenuItem>
-            <MenuItem value="ta">தமிழ் (Tamil)</MenuItem>
+            <MenuItem value="ta">தமிழ் (Tamil) <b>Inaccurate</b></MenuItem>
           </Select>
         </div>
       </CardContent>
@@ -179,6 +180,25 @@ const SettingsPage = () => {
     </Card>
   );
 };
+
+// const NotFound = () => {
+//   <Card variant="outlined" className="card">
+//   <CardContent>
+//     <Typography variant="h4" component="div" className="card-header">
+//       {t("settings", { defaultValue: "Settings" })}
+//     </Typography>
+//     &nbsp;
+//     <Divider className="card-divider" />
+//     &nbsp;
+//     <Typography variant="body1" className="card-body">
+//       {t("settings_description", {
+//         defaultValue: "Change your settings and other preferences here.",
+//       })}
+//     </Typography>
+//   </CardContent>
+// </Card>
+// }
+
 
 // Dashboard Component
 const Dashboard = () => {
@@ -263,6 +283,7 @@ const Dashboard = () => {
               <Route path="/videos" element={<VideosPage />} />
               <Route path="/languages" element={<LanguagesPage />} />
               <Route path="/settings" element={<SettingsPage />} />
+              {/* <Route path="/404" element={<NotFound />} /> */}
               {/* Add any additional routes here */}
             </Routes>
           </Box>

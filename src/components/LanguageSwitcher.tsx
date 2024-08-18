@@ -14,6 +14,8 @@ import {
 import LanguageSwitcher from "./LanguageSwitcher";
 import "./Dashboard.css";
 
+//! This is an "bugged" out version of Dashboard.tsx, this is not needed.
+
 // Placeholder Components
 const HottestArticles = () => (
   <Card variant="outlined" className="card">

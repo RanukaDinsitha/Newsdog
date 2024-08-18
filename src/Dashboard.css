@@ -158,6 +158,11 @@ html,
   margin-left: 8px;
 }
 
+.player {
+  align-self: center;
+  margin-top: 32px;
+}
+
 /* .doggy {
   margin-right: 0px; !important
 } */
