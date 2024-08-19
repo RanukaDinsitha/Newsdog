@@ -15,6 +15,7 @@
     "@emotion/styled": "^11.13.0",
     "@mui/icons-material": "^5.16.7",
     "@mui/material": "^5.16.7",
+    "@typeform/embed-react": "^4.0.0",
     "googletrans": "^1.0.21",
     "i18next": "^23.13.0",
     "i18next-browser-languagedetector": "^8.0.0",
