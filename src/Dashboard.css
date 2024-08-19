@@ -174,7 +174,8 @@ html,
 
 .about-box {
   .about-text {
-    font-family: 'Segoe UI', Tahoma, 'Noto Sans Sinhala', Geneva, Verdana, sans-serif;
+    font-family: "Segoe UI", Tahoma, "Noto Sans Sinhala", Geneva, Verdana,
+      sans-serif;
     size: 2px;
     color: black;
     font-weight: 300;

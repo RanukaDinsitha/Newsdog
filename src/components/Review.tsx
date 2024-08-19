@@ -1,9 +1,7 @@
-import Typeform from './Typeform.tsx';
+import Typeform from "./Typeform.tsx";
 
 const TransparentReviewButton = () => {
-  return (
-    <Typeform />
-  );
+  return <Typeform />;
 };
 
 export default TransparentReviewButton;
