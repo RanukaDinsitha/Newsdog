@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import {
   Home,
@@ -19,6 +19,7 @@ import {
   Divider,
   Select,
   MenuItem,
+  SelectChangeEvent
 } from "@mui/material";
 import { useTranslation } from "react-i18next";
 import ReactPlayer from "react-player";
@@ -125,7 +126,7 @@ const LanguagesPage = () => {
   const { i18n } = useTranslation();
 
   const handleChangeLanguage = (
-    event: React.ChangeEvent<{ value: unknown }>,
+    event: SelectChangeEvent<string>,
   ) => {
     i18n.changeLanguage(event.target.value as string);
   };
