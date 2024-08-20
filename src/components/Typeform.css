@@ -1,4 +1,4 @@
-.typeform-button {
+/* .typeform-button {
   background-color: transparent;
   border: 1px solid transparent;
   border-radius: 5px;
@@ -17,11 +17,15 @@
   margin-bottom: 0px;
 }
 
+.typeform-button:hover{
+  border: none;
+}
+
 .review-text {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   margin-top: 20px;
-  display: flex; /* Add this to align items within */
-  align-items: center; /* Aligns icon and text vertically */
+  display: flex;
+  align-items: center;
 }
 
 .button-style {
@@ -32,4 +36,4 @@
 
 .notebook-icon {
   margin-right: 5px;
-}
+} */

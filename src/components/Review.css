@@ -1,5 +1,41 @@
 .review-button {
-  align-self: calc(0 * 0 / 3 - 2 + 63 - 2);
+  text-transform: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: transparent;
+  border: none;
+  color: #000;
 }
 
-/* Not used anymore. */
+.review-button:hover {
+  background-color: rgba(0, 0, 0, 0.04);
+}
+
+.modal-content {
+  position: relative;
+  width: 80vw;
+  height: 80vh;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.close-icon {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.text-box {
+  margin-top: 8px;
+  margin-bottom: 6px;
+  color: grey;
+}
+
+.icon {
+  color: grey;
+}

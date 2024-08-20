@@ -164,11 +164,17 @@ html,
 }
 
 .review-box {
+  height: 50px;
+  display: flex;
+  justify-content: right;
+
+
   .review-button {
     float: right;
     margin-right: 32px;
     margin-left: 8px;
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    height: 40px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;margin-top: 5px;margin-left: 3px;
   }
 }
 
